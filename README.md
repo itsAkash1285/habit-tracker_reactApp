@@ -1,3 +1,6 @@
+![Screenshot (14)](https://github.com/itsAkash1285/habit-tracker_reactApp/assets/111186744/b5234e8e-7d63-481e-be3c-488f33340fb2)
+![Screenshot (15)](https://github.com/itsAkash1285/habit-tracker_reactApp/assets/111186744/d2179e38-014a-49dd-8f0d-71c9f21a2c13)
+![Screenshot (16)](https://github.com/itsAkash1285/habit-tracker_reactApp/assets/111186744/c4ddb327-2695-48a5-87cb-f3b00aad389f)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
