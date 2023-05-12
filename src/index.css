@@ -1,13 +1,179 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* style add for all element */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+/* style for body */
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to left top, #80d0c7, #17597f);
+  color: white;
+}
+
+/* style root div */
+#root {
+  width: 100%;
+  border-right: 10px solid white;
+  border-left: 10px solid white;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+}
+
+/* style navbar component  */
+
+.navbar {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  padding: 0px 20px;
+  justify-content: space-between;
+  border-bottom: 5px solid white;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+
+.right-nav h5 {
+  color: #DDDDDD;
+  margin-right: 10px;
+}
+
+.addhabit-btn {
+  cursor: pointer;
+  color: rgb(11, 10, 10);
+  background-color: #f9fafc;
+  padding: 8px 20px;
+  border-radius: 7px;
+}
+
+/* modal */
+.modal-content {
+  background-color: #0a6179;
+
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-footer {
+  border: none;
+}
+
+/* habit under habits component */
+.habit {
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid #fcf9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.habit:hover {
+  background-color: #323232;
+}
+
+.habit-left {
+  display: flex;
+  align-items: center;
+}
+
+.habit-left i {
+  color: #f4f6f7;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #06586e;
+  margin-right: 10px;
+}
+
+.day-complete {
+  color: #fbf8fa;
+  font-size: medium;
+  margin: 5px 5px;
+}
+
+.habit-right {
+  display: flex;
+  align-items: center;
+}
+
+.log-btn {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #06586e;
+  padding: 10px;
+  border-radius: 7px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+}
+
+.log-btn:hover {
+  color: white;
+}
+
+.log-btn i {
+  margin-right: 5px;
+}
+
+.fa-trash {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #06586e;
+}
+
+.back button {
+  text-align: center;
+  text-decoration: black;
+}
+
+/* style week view container  */
+
+.days-container {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* style day view component */
+.day-container {
+  height: 100px;
+  width: 150px;
+  background-color: #323232;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+p {
+  margin: 0%;
+}
+
+.circle-icon {
+  font-size: 24px;
+  margin: 5px 11px;
+  cursor: pointer;
+}
+
+.active {
+  color: #15a997
 }
